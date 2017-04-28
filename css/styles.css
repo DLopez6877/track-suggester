@@ -53,6 +53,7 @@ h4 {
   font-family: cursive;
   font-weight: bolder;
   color: #124;
+  margin: 6px;
 }
 
 #begin h1 {
@@ -111,6 +112,11 @@ h4 {
   }
 
   #begin h1 {
+    font-size: 22px;
+    font-family: cursive;
+  }
+
+  #retake h1 {
     font-size: 22px;
     font-family: cursive;
   }
