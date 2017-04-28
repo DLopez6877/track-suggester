@@ -1,6 +1,7 @@
 body {
   text-align: center;
   background-image: url(../img/background.jpg);
+  background-size: 200px;
 }
 
 .initially-hidden {
@@ -9,18 +10,20 @@ body {
 
 .container {
   display: inline-block;
-  margin: 10%;
+  margin: 2% 15%;
   width: 70%;
-  height: 70%;
-  padding: 2.5%
+  height: auto;
 }
 
 .header {
   margin: 5%;
   width: 90%;
   height: 10%;
-  background-color: red;
-  padding: 5%;
+  background-color: lightblue;
+  border: thick solid navy;
+  border-radius: 50px;
+  padding: 2%;
+  opacity: .8;
 }
 
 .survey-question {
@@ -31,6 +34,13 @@ body {
   padding: 5%;
 }
 
-#begin {
-  background-color: green;
+#begin h1 {
+  background-color: lightblue;
+  border: thick solid navy;
+  border-radius: 50px;
+  padding: 2%;
+  width: 70%;
+  height: auto;
+  display: inline-block;
+  opacity: .75;
 }
