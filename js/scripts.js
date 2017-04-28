@@ -13,15 +13,15 @@ $(document).ready(function() {
   var question1Input = parseInt($("#question1").val());
 
   $("#begin").click(function() {
-    $(this).children().fadeOut();
-    $(this).next().fadeIn(2500);
+    $(this).children().toggle();
+    $(this).next().fadeIn(1500);
 
   });
 
   $("form").submit(function(event) {
     event.preventDefault();
-    $(this).fadeOut();
-    $(this).parent().next().fadeIn(2500);
+    $(this).toggle();
+    $(this).parent().next().fadeIn(1500);
     $("#result-css").hide();
 
   });
@@ -37,19 +37,19 @@ $(document).ready(function() {
     $(this).fadeOut();
 
     if ( score < 4 ) {
-      $("#result-css").fadeIn(2500);
+      $("#result-css").fadeIn(1500);
       console.log(preferInput, interactiveInput, question1Input, score);
     } else if ( score < 7 && score > 3 ){
-      $("#result-ruby").fadeIn(2500);
+      $("#result-ruby").fadeIn(1500);
       console.log(preferInput, interactiveInput, question1Input, score);
     } else if ( score < 10 && score > 6 ){
-      $("#result-php").fadeIn(2500);
+      $("#result-php").fadeIn(1500);
       console.log(preferInput, interactiveInput, question1Input, score);
     } else if ( score < 13 && score > 9 ){
-      $("#result-java").fadeIn(2500);
+      $("#result-java").fadeIn(1500);
       console.log(preferInput, interactiveInput, question1Input, score);
     } else {
-      $("#result-cnet").fadeIn(2500);
+      $("#result-cnet").fadeIn(1500);
       console.log(preferInput, interactiveInput, question1Input, score);
     }
 
