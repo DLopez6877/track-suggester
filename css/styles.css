@@ -1,0 +1,36 @@
+.initially-hidden {
+  display: none;
+}
+
+.container {
+  display: inline-block;
+  margin: 10%;
+  width: 70%;
+  height: 70%;
+  background-color: blue;
+  padding: 2.5%
+}
+
+.header {
+  margin: 5%;
+  width: 90%;
+  height: 10%;
+  background-color: red;
+  padding: 5%;
+}
+
+.survey-question {
+  margin: 5%;
+  width: 90%;
+  height: 50%;
+  background-color: white;
+  padding: 5%;
+}
+
+#begin {
+  margin: 5%;
+  width: 90%;
+  height: 60%;
+  background-color: green;
+  padding: 5%;
+}
