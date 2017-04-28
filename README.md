@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a survey that will asks you questions about yourself. Based on the information supplied, the quiz will suggest which course you should take and 2 other courses you might like._
+_This is a survey that will asks you questions about yourself. Based on the information supplied, the quiz will suggest if you should take CSS/Design, Ruby/Rails, PHP/Drupal, Java/Android, or C#/.NET._
 
 ## Setup/Installation Requirements
 
@@ -16,9 +16,13 @@ _This is a survey that will asks you questions about yourself. Based on the info
 * _Open "track-suggester" repository_
 * _Open index.html_
 
+## gh-pages link
+
+[a link](https://dlopez6877.github.io/track-suggester)
+
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_none_
 
 ## Support and contact details
 
