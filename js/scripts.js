@@ -20,9 +20,6 @@ $(document).ready(function() {
 
   $("form").submit(function(event) {
     event.preventDefault();
-
-    console.log(preferInput, interactiveInput, question1Input)
-
     $(this).fadeOut();
     $(this).parent().next().fadeIn(2500);
 
@@ -30,6 +27,10 @@ $(document).ready(function() {
 
   $("form#final-form").submit(function(event) {
     event.preventDefault();
+    
+    var preferInput = parseInt($("#prefer").val());
+    var interactiveInput = parseInt($("#interactive").val());
+    var question1Input = parseInt($("#question1").val());
 
     $(this).fadeOut();
     $("#result").fadeIn(2500);
