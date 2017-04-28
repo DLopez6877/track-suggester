@@ -18,7 +18,7 @@ _This is a survey that will asks you questions about yourself. Based on the info
 
 ## gh-pages link
 
-[a link](https://dlopez6877.github.io/track-suggester)
+[click here](https://dlopez6877.github.io/track-suggester)
 
 ## Known Bugs
 
