@@ -68,3 +68,12 @@ h4 {
   font-size: 2em;
   font-family: monospace;
 }
+
+.btn {
+  border-color: #124;
+  border-width: medium;
+  opacity: .9;
+  color: #124;
+  font-family: monospace;
+  padding: 4px 6px;
+}
