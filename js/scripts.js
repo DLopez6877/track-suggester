@@ -36,6 +36,7 @@ $(document).ready(function() {
 
     $(this).fadeOut();
 
+
     if ( score < 4 ) {
       $("#result-css").fadeIn(1500);
       console.log(preferInput, interactiveInput, question1Input, score);
@@ -52,6 +53,11 @@ $(document).ready(function() {
       $("#result-cnet").fadeIn(1500);
       console.log(preferInput, interactiveInput, question1Input, score);
     }
+
+    $("#retake").delay(3000).fadeIn(1500);
+    $('#retake').click(function() {
+    location.reload();
+    });
 
   });
 
