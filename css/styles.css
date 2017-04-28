@@ -44,3 +44,14 @@ body {
   display: inline-block;
   opacity: .75;
 }
+
+h4 {
+  color: white;
+  font-family: monospace;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.form-control {
+  margin: 20px;
+}
