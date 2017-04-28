@@ -42,11 +42,13 @@ h4 {
 }
 
 .form-control {
-  margin: 20px;
+  margin: 2%;
+  width: 96%;
+  color: #124;
 }
 
 .initially-hidden h1 {
-  font-size: 6em;
+  font-size: 60px;
   font-family: cursive;
   font-weight: bolder;
   color: #124;
@@ -61,12 +63,13 @@ h4 {
   height: auto;
   display: inline-block;
   opacity: .75;
-  font-size: 2em;
+  font-size: 30px;
 }
 
 .header h1 {
-  font-size: 2em;
-  font-family: monospace;
+  font-size: 28px;
+  font-family: monospace;;
+  padding: 5px;
 }
 
 .btn {
@@ -76,4 +79,27 @@ h4 {
   color: #124;
   font-family: monospace;
   padding: 4px 6px;
+}
+
+@media screen and (max-width:  500px)  {
+
+  .initially-hidden h1 {
+    font-size: 40px;
+    color: black;
+  }
+
+  .header h1 {
+    font-size: 22px;
+    font-family: cursive;
+  }
+
+  .header {
+    margin-top: 20%;
+  }
+
+  #begin h1 {
+    font-size: 22px;
+    font-family: cursive;
+  }
+
 }
