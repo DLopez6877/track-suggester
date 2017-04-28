@@ -27,12 +27,14 @@ $(document).ready(function() {
 
   $("form#final-form").submit(function(event) {
     event.preventDefault();
-    
+
     var preferInput = parseInt($("#prefer").val());
     var interactiveInput = parseInt($("#interactive").val());
     var question1Input = parseInt($("#question1").val());
+    var score = add(preferInput, interactiveInput, question1Input)
 
     $(this).fadeOut();
+    $(".suggestion").text(score);
     $("#result").fadeIn(2500);
       console.log(preferInput, interactiveInput, question1Input)
   });
