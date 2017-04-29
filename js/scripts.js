@@ -39,19 +39,19 @@ $(document).ready(function() {
 
     if ( score < 4 ) {
       $("#result-css").fadeIn(1500);
-      console.log(preferInput, interactiveInput, question1Input, score);
+      $(".header").toggle();
     } else if ( score < 7 && score > 3 ){
       $("#result-ruby").fadeIn(1500);
-      console.log(preferInput, interactiveInput, question1Input, score);
+      $(".header").toggle();
     } else if ( score < 10 && score > 6 ){
       $("#result-php").fadeIn(1500);
-      console.log(preferInput, interactiveInput, question1Input, score);
+      $(".header").toggle();
     } else if ( score < 13 && score > 9 ){
       $("#result-java").fadeIn(1500);
-      console.log(preferInput, interactiveInput, question1Input, score);
+      $(".header").toggle();
     } else {
       $("#result-cnet").fadeIn(1500);
-      console.log(preferInput, interactiveInput, question1Input, score);
+      $(".header").toggle();
     }
 
     $("#retake").delay(3000).fadeIn(1500);
